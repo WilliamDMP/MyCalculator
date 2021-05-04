@@ -2,8 +2,8 @@ function valor(x) {
     document.getElementById('display').value += x
 }
 
-function borrardisplay(y) {
-    document.getElementById('display').value = y
+function borrardisplay() {
+    document.getElementById('display').value = ""
 }
 
 function cal_resultado() {
